@@ -1,0 +1,14 @@
+{
+  "name": "node-pbnb-alexa",
+  "version": "1.0.0",
+  "description": "Alexa Lambda with Pubnub",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gopal",
+  "license": "MIT",
+  "dependencies": {
+    "pubnub": "^4.4.4"
+  }
+}

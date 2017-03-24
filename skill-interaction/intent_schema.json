@@ -1,0 +1,33 @@
+{
+	"intents":
+	[
+		{"intent": "TurnOnIntent", 
+			"slots":
+			[
+				{"name" : "Item", "type": "LIST_OF_ITEMS"}
+			]
+		},
+		
+		{"intent": "TurnOffIntent",
+			"slots":
+			[
+				{"name" : "Item", "type": "LIST_OF_ITEMS"}
+			]
+		},
+		
+		{"intent": "SetValueIntent", 
+			"slots":
+			[
+				{"name" : "Item", "type": "LIST_OF_ITEMS"},
+				{"name": "amount","type": "AMAZON.NUMBER"}
+			]
+		},
+    
+		{"intent": "AMAZON.HelpIntent"},
+  
+		{"intent": "AMAZON.StopIntent"},
+  
+		{"intent": "AMAZON.CancelIntent"}
+ 
+	]
+}

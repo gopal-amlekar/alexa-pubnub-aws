@@ -1,0 +1,3 @@
+*.zip
+skill-adapter/*.zip
+skill-adapter/node_modules/
